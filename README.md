@@ -7,4 +7,4 @@ operations.
 
 Orcfax v0 incidents are recorded [here][incidents-1].
 
-[incidents-1]: https://github.com/orcfax/incidents.v0
+[incidents-1]: https://github.com/orcfax/incidents.v0/issues

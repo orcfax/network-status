@@ -1,30 +1,34 @@
 ---
-name: Orcfax Incident Report Simple
-about: A template (minus comment blocks) for recording incidents relating to Orcfax and their resulting assessment, impact, and resolution
-title: 'INCIDENT 00X | Incident report title'
-labels: ''
-assignees: ''
+name: "Orcfax Incident Report"
+title: "INCIDENT 0000 - Example Incident"
+published: YYYY-MM-DD
+status: "Under Review"
+trigger: ""
 ---
+
+## Initial Publish Date
+
+YYYY-MM-DD
+
+## Status
+
+-   [x] Under Review
+-   [ ] Identified
+-   [ ] In Progress
+-   [ ] Mitigated
+-   [ ] Resolved
 
 ## Trigger
 
-* ⬛ suspected malware infections
-* ⬛ access violations
-* ✔️ anomalous system behaviors
-* ⬛ human errors
-* ⬛ unauthorized access attempts
-
-## Date
-
-1970-01-01
+-   [ ] Suspected malware infections
+-   [ ] Access violations
+-   [x] Anomalous system behaviors
+-   [ ] Human errors
+-   [ ] Unauthorized access attempts
 
 ## Summary
 
 A summary of the issue.
-
-## Status
-
-Resolved | Under Review
 
 ## Assessment
 

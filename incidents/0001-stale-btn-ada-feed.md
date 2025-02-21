@@ -1,31 +1,35 @@
 ---
-name: Orcfax Incident Report
-title: "INCIDENT 0001 | Stale CNT prices (BTN-ADA)"
-date: 2025-01-30
+name: "Orcfax Incident Report"
+title: "INCIDENT 0001 - Stale CNT prices (BTN-ADA)"
+published: 2025-01-30
+status: "Resolved"
 trigger: "anomalous system behaviors"
-status: Resolved
 ---
+
+## Initial Publish Date
+
+2025-01-30
+
+## Status
+
+-   [ ] Under Review
+-   [ ] Identified
+-   [ ] In Progress
+-   [ ] Mitigated
+-   [x] Resolved
 
 ## Trigger
 
--   ⬛ suspected malware infections
--   ⬛ access violations
--   ✔️ anomalous system behaviors
--   ⬛ human errors
--   ⬛ unauthorized access attempts
-
-## Date
-
-2025-01-30
+-   [ ] Suspected malware infections
+-   [ ] Access violations
+-   [x] Anomalous system behaviors
+-   [ ] Human errors
+-   [ ] Unauthorized access attempts
 
 ## Summary
 
 Changes to liquidity pool addresses meant that BTN-ADA prices were stale from
 January 30 to February 4.
-
-## Status
-
-Resolved
 
 ## Assessment
 
@@ -55,8 +59,8 @@ We are investigating:
 
 1. Regenerating CNT feed configuration on a more regular basis so as to identify
    changes quicker.
-1. Socio-technical approaches to following liquidity pools more effectively.
-1. Identifying properties of stale feeds that can be implemented statelessly in
+2. Socio-technical approaches to following liquidity pools more effectively.
+3. Identifying properties of stale feeds that can be implemented statelessly in
    an oracle solution.
 
 ## Documentation improvements

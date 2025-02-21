@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "DavidAnson.vscode-markdownlint", // Markdown linting
+        "streetsidesoftware.code-spell-checker", // Spell checking
+        "esbenp.prettier-vscode" // General formatting
+    ]
+}

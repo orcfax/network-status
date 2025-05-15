@@ -1,31 +1,35 @@
 ---
-name: Orcfax Incident Report
-title: 'INCIDENT 0001 | Stale CNT prices (BTN-ADA)'
-date: 2025-01-30
-trigger: "anomalous system behaviors"
-status: Resolved
+name: "Orcfax Incident Report"
+title: "INCIDENT 0001 - Stale CNT prices (BTN-ADA)"
+published: 2025-01-30
+status: "Resolved"
+trigger: "Anomalous system behaviors"
 ---
+
+## Initial Publish Date
+
+2025-01-30
+
+## Status
+
+-   [ ] Under Review
+-   [ ] Identified
+-   [ ] In Progress
+-   [ ] Mitigated
+-   [x] Resolved
 
 ## Trigger
 
-* ⬛ suspected malware infections
-* ⬛ access violations
-* ✔️ anomalous system behaviors
-* ⬛ human errors
-* ⬛ unauthorized access attempts
-
-## Date
-
-2025-01-30
+-   [ ] Suspected malware infections
+-   [ ] Access violations
+-   [x] Anomalous system behaviors
+-   [ ] Human errors
+-   [ ] Unauthorized access attempts
 
 ## Summary
 
 Changes to liquidity pool addresses meant that BTN-ADA prices were stale from
 January 30 to February 4.
-
-## Status
-
-Resolved
 
 ## Assessment
 

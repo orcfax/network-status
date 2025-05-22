@@ -9,7 +9,7 @@ trigger: "Anomalous system behaviors"
 
 ## Initial Publish Date
 
-YYYY-MM-DD
+2025-05-22
 
 ## Status
 

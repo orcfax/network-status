@@ -15,7 +15,7 @@ trigger: "Anomalous system behaviors"
 
 -   [ ] Under Review
 -   [ ] Identified
--   [X] In Progress
+-   [x] In Progress
 -   [ ] Mitigated
 -   [ ] Resolved
 

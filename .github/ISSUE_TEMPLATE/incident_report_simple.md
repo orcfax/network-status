@@ -1,5 +1,6 @@
 ---
 name: "Orcfax Incident Report"
+about: "Orcfax standard template for issue reporting"
 title: "INCIDENT 0000 - Example Incident"
 published: YYYY-MM-DD
 status: "Under Review"

@@ -1,3 +1,11 @@
+---
+name: "Orcfax Incident Report"
+title: "INCIDENT 0008 - Arweave Downtime"
+published: 2025-11-04
+status: "In Progress"
+trigger: "Anomalous system behaviors"
+---
+
 ## Initial Publish Date
 
 2025-11-04

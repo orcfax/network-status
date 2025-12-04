@@ -68,12 +68,12 @@ We are investigating:
 
 1. Connecting the validator to ogmios so that block height may be incorporated
    as a validation metric analogous to how time is used by the validator.
-1. Completing a cnt-indexer refactor.
+1. Completion of the cnt-indexer refactor to improve test coverage and create opportunities for better guard rails.
 1. Strategies for better determining node health, e.g. using a block height
-   comparison with its own database status to determined an unhealthy node.
+   comparison with the cnt-indexer database status to determined an unhealthy node.
 1. Improving long-term monitoring of price data.
 
 ## Documentation improvements
 
-1. Update recovery documentation with this new information to ensure a more
-   complete checklist.
+1. Update documentation with this lessons learned post fork to ensure a more
+   complete recovery checklist.

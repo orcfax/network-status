@@ -2,7 +2,7 @@
 name: "Orcfax Incident Report"
 title: "INCIDENT 0009 - Hard Fork"
 published: 2025-12-03
-status: "In Progress"
+status: "Resolved"
 trigger: "Anomalous system behaviors"
 ---
 
@@ -14,9 +14,9 @@ trigger: "Anomalous system behaviors"
 
 -   [ ] Under Review
 -   [ ] Identified
--   [x] In Progress
+-   [ ] In Progress
 -   [ ] Mitigated
--   [ ] Resolved
+-   [x] Resolved
 
 ## Trigger
 
@@ -50,6 +50,8 @@ were upgraded and the three affected nodes had their databases reindexed.
 Publication resumed at `2025-12-03T19:55:44.374620+00:00` once all nodes came
 back online and reported correctly.
 
+All nodes fully synced at `2025-12-03T21:53:53`.
+
 ## Additional Notes
 
 The three affected nodes were hosted in India, Singapore, and Australia. All
@@ -68,12 +70,14 @@ We are investigating:
 
 1. Connecting the validator to ogmios so that block height may be incorporated
    as a validation metric analogous to how time is used by the validator.
-1. Completion of the cnt-indexer refactor to improve test coverage and create opportunities for better guard rails.
+1. Completion of the cnt-indexer refactor to improve test coverage and create
+   opportunities for better guard rails.
 1. Strategies for better determining node health, e.g. using a block height
-   comparison with the cnt-indexer database status to determined an unhealthy node.
+   comparison with the cnt-indexer database status to determine an unhealthy
+   node.
 1. Improving long-term monitoring of price data.
 
 ## Documentation improvements
 
-1. Update documentation with this lessons learned post fork to ensure a more
-   complete recovery checklist.
+1. Update documentation with lessons learned post fork to ensure a more complete
+   recovery checklist.

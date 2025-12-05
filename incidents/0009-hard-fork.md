@@ -76,6 +76,12 @@ We are investigating:
    comparison with the cnt-indexer database status to determine an unhealthy
    node.
 1. Improving long-term monitoring of price data.
+1. strategies and/or tooling that will ensure the network, or its components,
+   fail more timely in these situations. Being able to read from Kupo and Ogmios
+   while they were no longer actively syncing with the Cardano Network was
+   detrimental to overall performance. We will look at local options as well as
+   considering what could be suggested/implemented upstream that might improve
+   tooling and potentially help others from falling into the same situation.
 
 ## Documentation improvements
 
